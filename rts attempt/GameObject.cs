@@ -31,7 +31,7 @@ namespace rts_attempt
 			this.scale = scale;
 			this.effects = spriteEffects;
 			this.depth = layerDepth;
-			this.spriteBatch 
+			
 		}
 		public void Update(GameTime gameTime)
 		{
