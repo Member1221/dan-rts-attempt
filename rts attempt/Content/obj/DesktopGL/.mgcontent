@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/88jade_cosplay.jpg</File>
-    <File>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/earth.png</File>
-    <File>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/shuttle.png</File>
-    <File>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/stars.jpg</File>
-    <File>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Fonts/Score.spritefont</File>
+    <File>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/88jade_cosplay.jpg</File>
+    <File>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/earth.png</File>
+    <File>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/shuttle.png</File>
+    <File>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/stars.jpg</File>
+    <File>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Fonts/Score.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>

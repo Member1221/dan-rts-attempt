@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Fonts/Score.spritefont</SourceFile>
-  <SourceTime>2017-11-20T01:51:22.164337+00:00</SourceTime>
-  <DestFile>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/bin/DesktopGL/Fonts/Score.xnb</DestFile>
-  <DestTime>2017-11-20T01:52:38.5190244+00:00</DestTime>
+  <SourceFile>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Fonts/Score.spritefont</SourceFile>
+  <SourceTime>2017-11-20T02:50:32.3599676+00:00</SourceTime>
+  <DestFile>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/bin/DesktopGL/Fonts/Score.xnb</DestFile>
+  <DestTime>2017-11-20T02:52:54.3640466+00:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2017-03-01T15:05:36+00:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

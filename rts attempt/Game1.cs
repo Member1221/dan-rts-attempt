@@ -22,6 +22,7 @@ namespace rts_attempt
 		private int score = 0;
 
 		private float angle = 0;
+		private float scale = 1.0f;
         
         public Game1()
         {
@@ -87,13 +88,19 @@ namespace rts_attempt
 			// TODO: Add your update logic here
 			score++;
 			//angle += 0.001f;
+			
+			///work out angle relative to mouse
 			Vector2 mousePos = mouse.Position.ToVector2();
 			Vector2 earthPos = new Vector2(400, 240);
 			Vector2 difference = mousePos - earthPos;
 			angle = (float)Math.Atan2(difference.Y, difference.X);
-			
 
-			///work out angle relative to mouse
+			//background move
+			float distance = (float)Math.Sqrt(Math.Pow(earthPos.X - mousePos.X, 2) + Math.Pow(earthPos.Y - mousePos.Y, 2));
+			if (distance < 0f)
+				distance *= -1;
+
+			scale = distance / 500 + 1;
 
             base.Update(gameTime);
         }
@@ -108,7 +115,7 @@ namespace rts_attempt
 
 			// TODO: Add your drawing code here
 			spriteBatch.Begin();
-			spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480), Color.White);
+			spriteBatch.Draw(background, new Vector2(400, 240), new Rectangle(0, 0, background.Width, background.Height), Color.White, 0f, new Vector2(400, 240), scale, SpriteEffects.None, 0);
 
 			Vector2 locationEarth = new Vector2(400, 240);
 

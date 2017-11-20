@@ -21,3 +21,25 @@ Z:\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Con
 Z:\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Images\shuttle.xnb
 Z:\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Images\stars.xnb
 Z:\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Fonts\Score.xnb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Fonts\Score.xnb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Images\88jade_cosplay.xnb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Images\earth.xnb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Images\shuttle.xnb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\Content\Images\stars.xnb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\rts attempt.exe
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\rts attempt.pdb
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\obj\Debug\rts attempt.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\obj\Debug\rts attempt.exe
+C:\Users\user\Documents\Programming\GITHUB\dan-rts-attempt\rts attempt\obj\Debug\rts attempt.pdb

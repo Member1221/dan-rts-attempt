@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/stars.jpg</SourceFile>
-  <SourceTime>2017-11-20T01:40:14.7869589+00:00</SourceTime>
-  <DestFile>Z:/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/bin/DesktopGL/Images/stars.xnb</DestFile>
-  <DestTime>2017-11-20T01:45:02.2892186+00:00</DestTime>
+  <SourceFile>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Images/stars.jpg</SourceFile>
+  <SourceTime>2017-11-20T02:50:32.3799937+00:00</SourceTime>
+  <DestFile>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/bin/DesktopGL/Images/stars.xnb</DestFile>
+  <DestTime>2017-11-20T02:52:53.9265004+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T15:05:36+00:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
