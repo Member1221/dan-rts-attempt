@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace rts_attempt
 {
@@ -11,11 +12,22 @@ namespace rts_attempt
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+		MouseState mouse;
+
+		private Texture2D background;
+		private Texture2D shuttle;
+		private Texture2D earth;
+		private SpriteFont font;
+		private int score = 0;
+
+		private float angle = 0;
         
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+			IsMouseVisible = true;
         }
 
         /// <summary>
@@ -26,7 +38,9 @@ namespace rts_attempt
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+			// TODO: Add your initialization logic here
+
+			mouse = Mouse.GetState();
 
             base.Initialize();
         }
@@ -40,8 +54,13 @@ namespace rts_attempt
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
-        }
+			background = Content.Load<Texture2D>("Images/stars");
+			shuttle = Content.Load<Texture2D>("Images/shuttle");
+			earth = Content.Load<Texture2D>("Images/earth");
+			font = Content.Load<SpriteFont>("Fonts/Score");
+
+			// TODO: use this.Content to load your game content here
+		}
 
         /// <summary>
         /// UnloadContent will be called once per game and is the place to unload
@@ -52,17 +71,29 @@ namespace rts_attempt
             // TODO: Unload any non ContentManager content here
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+		/// <summary>
+		/// Allows the game to run logic such as updating the world,
+		/// checking for collisions, gathering input, and playing audio.
+		/// </summary>
+		/// <param name="gameTime">Provides a snapshot of timing values.</param>
+		
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+			mouse = Mouse.GetState();
+
+			// TODO: Add your update logic here
+			score++;
+			//angle += 0.001f;
+			Vector2 mousePos = mouse.Position.ToVector2();
+			Vector2 earthPos = new Vector2(400, 240);
+			Vector2 difference = mousePos - earthPos;
+			angle = (float)Math.Atan2(difference.Y, difference.X);
+			
+
+			///work out angle relative to mouse
 
             base.Update(gameTime);
         }
@@ -75,7 +106,20 @@ namespace rts_attempt
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+			// TODO: Add your drawing code here
+			spriteBatch.Begin();
+			spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480), Color.White);
+
+			Vector2 locationEarth = new Vector2(400, 240);
+
+			Rectangle sourceEarth = new Rectangle(0, 0, earth.Width, earth.Height);
+			Rectangle sourceShuttle = new Rectangle(0, 0, earth.Width, earth.Height);
+			Vector2 originEarth = new Vector2(earth.Width / 2, earth.Height / 2);
+			Vector2 originShuttle = new Vector2(shuttle.Width / 2, shuttle.Height / 2);
+			spriteBatch.Draw(earth, locationEarth, sourceEarth, Color.White, angle, originEarth, 1.0f, SpriteEffects.None, 1);
+			spriteBatch.Draw(shuttle, mouse.Position.ToVector2(), sourceShuttle, Color.White, angle, originShuttle, 1.0f, SpriteEffects.None, 1);
+			spriteBatch.DrawString(font, "Score " + score, new Vector2(100, 100), Color.White);
+			spriteBatch.End();
 
             base.Draw(gameTime);
         }
