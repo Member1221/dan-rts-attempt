@@ -123,6 +123,7 @@ namespace rts_attempt
 			Rectangle sourceShuttle = new Rectangle(0, 0, earth.Width, earth.Height);
 			Vector2 originEarth = new Vector2(earth.Width / 2, earth.Height / 2);
 			Vector2 originShuttle = new Vector2(shuttle.Width / 2, shuttle.Height / 2);
+
 			spriteBatch.Draw(earth, locationEarth, sourceEarth, Color.White, angle, originEarth, 1.0f, SpriteEffects.None, 1);
 			spriteBatch.Draw(shuttle, mouse.Position.ToVector2(), sourceShuttle, Color.White, angle, originShuttle, 1.0f, SpriteEffects.None, 1);
 			spriteBatch.DrawString(font, "Score " + score, new Vector2(100, 100), Color.White);
