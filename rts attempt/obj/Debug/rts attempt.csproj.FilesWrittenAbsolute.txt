@@ -1,0 +1,27 @@
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/obj/Debug/rts_attempt.Icon.ico
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/obj/Debug/rts_attempt.Icon.bmp
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/obj/Debug/rts attempt.exe
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/obj/Debug/rts attempt.pdb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/OpenTK.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/NVorbis.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x86/SDL2.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x64/SDL2.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x86/soft_oal.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x64/soft_oal.dll
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x86/libSDL2-2.0.so.0
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x64/libSDL2-2.0.so.0
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x86/libopenal.so.1
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/x64/libopenal.so.1
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/libSDL2-2.0.0.dylib
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/libopenal.1.dylib
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll.config
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/Content/Fonts/Fnt.xnb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/Content/Fonts/Score.xnb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/Content/Images/88jade_cosplay.xnb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/Content/Images/earth.xnb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/Content/Images/shuttle.xnb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/Content/Images/stars.xnb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/rts attempt.pdb
+/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/bin/DesktopGL/AnyCPU/Debug/rts attempt.exe

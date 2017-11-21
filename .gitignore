@@ -1,0 +1,4 @@
+*.exe
+*.dll
+rts_attempt/obj/
+rts_attempt/bin/

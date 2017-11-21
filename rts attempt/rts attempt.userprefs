@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{E6E8C5CA-B35C-4A0A-A7D7-115A71415C93}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RTSGame/GameObject.cs">
+    <Files>
+      <File FileName="Program.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="RTSGame/GameObject.cs" Line="53" Column="19" NotebookId="1" />
+      <File FileName="RTSGame/GameEntity.cs" Line="26" Column="4" NotebookId="1" />
+      <File FileName="RTSGame/Updatable.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="RTSGame/GameObjects/GameEntities/Spaceship.cs" Line="15" Column="4" NotebookId="1" />
+      <File FileName="RTSGame/GameEntityBehaviours/SpaceshipBehaviour.cs" Line="10" Column="4" NotebookId="1" />
+      <File FileName="RTSGame/GameWorld.cs" Line="41" Column="41" NotebookId="1" />
+      <File FileName="RTSGame/GameObjects/GameEntities/Earth.cs" Line="7" Column="15" NotebookId="1" />
+      <File FileName="RTSGame/GameEntityBehaviour.cs" Line="12" Column="2" NotebookId="1" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="3200" Y="0" Width="1920" Height="1048">
+        <Files>
+          <File FileName="Game1.cs" Line="105" Column="1" />
+          <File FileName="RTSGame/GameObjects/Background.cs" Line="35" Column="2" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.rts_220attempt PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

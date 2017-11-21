@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using Microsoft.Xna.Framework.Content;
+using System.Collections.Generic;
 
 namespace rts_attempt
 {
@@ -14,6 +16,8 @@ namespace rts_attempt
         SpriteBatch spriteBatch;
 
 		MouseState mouse;
+
+		GameWorld world;
 
 		private Texture2D background;
 		private Texture2D shuttle;
@@ -29,6 +33,7 @@ namespace rts_attempt
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 			IsMouseVisible = true;
+			Window.AllowUserResizing = true;
         }
 
         /// <summary>
@@ -43,6 +48,8 @@ namespace rts_attempt
 
 			mouse = Mouse.GetState();
 
+			world = new GameWorld();
+
             base.Initialize();
         }
 
@@ -54,11 +61,11 @@ namespace rts_attempt
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
-			background = Content.Load<Texture2D>("Images/stars");
-			shuttle = Content.Load<Texture2D>("Images/shuttle");
-			earth = Content.Load<Texture2D>("Images/earth");
-			font = Content.Load<SpriteFont>("Fonts/Score");
+			ContentMgr.setCManager(Content);
+			background = ContentMgr.LoadContent<Texture2D>("Images/stars");
+			shuttle = ContentMgr.LoadContent<Texture2D>("Images/shuttle");
+			earth = ContentMgr.LoadContent<Texture2D>("Images/earth");
+			font = ContentMgr.LoadContent<SpriteFont>("Fonts/Score");
 
 			// TODO: use this.Content to load your game content here
 		}
@@ -102,6 +109,8 @@ namespace rts_attempt
 
 			scale = distance / 500 + 1;
 
+			world.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -114,8 +123,7 @@ namespace rts_attempt
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
 			// TODO: Add your drawing code here
-			spriteBatch.Begin();
-			spriteBatch.Draw(background, new Vector2(400, 240), new Rectangle(0, 0, background.Width, background.Height), Color.White, 0f, new Vector2(400, 240), scale, SpriteEffects.None, 0);
+
 
 			Vector2 locationEarth = new Vector2(400, 240);
 
@@ -127,9 +135,42 @@ namespace rts_attempt
 			spriteBatch.Draw(earth, locationEarth, sourceEarth, Color.White, angle, originEarth, 1.0f, SpriteEffects.None, 1);
 			spriteBatch.Draw(shuttle, mouse.Position.ToVector2(), sourceShuttle, Color.White, angle, originShuttle, 1.0f, SpriteEffects.None, 1);
 			spriteBatch.DrawString(font, "Score " + score, new Vector2(100, 100), Color.White);
-			spriteBatch.End();
+
+
+			world.Draw(spriteBatch, gameTime);
 
             base.Draw(gameTime);
         }
     }
+
+	public class ContentMgr
+	{
+		private static ContentManager mgr;
+		private static Dictionary<string, object> content = new Dictionary<string, object>();
+
+		/// <summary>
+		/// Sets the content manager, do not run this outside of the main game class.
+		/// </summary>
+		/// <param name="man">Man.</param>
+		internal static void setCManager(ContentManager man)
+		{
+			mgr = man;
+		}
+
+		/// <summary>
+		/// Loads the content of type T.
+		/// </summary>
+		/// <returns>The content.</returns>
+		/// <param name="name">Name</param>
+		/// <param name="unique">If set to <c>true</c> a unique copy of the item will be made.</param>
+		/// <typeparam name="T">The type to load</typeparam>
+		public static T LoadContent<T>(string name, bool unique = false)
+		{
+			if (unique)
+				return mgr.Load<T>(name);
+			if (content.ContainsKey(name)) return (T)content[name];
+			content[name] = mgr.Load<T>(name);
+			return (T)content[name];
+		}
+	}
 }

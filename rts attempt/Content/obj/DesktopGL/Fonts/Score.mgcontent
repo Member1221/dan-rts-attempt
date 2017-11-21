@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/Fonts/Score.spritefont</SourceFile>
-  <SourceTime>2017-11-20T02:50:32.3599676+00:00</SourceTime>
-  <DestFile>C:/Users/user/Documents/Programming/GITHUB/dan-rts-attempt/rts attempt/Content/bin/DesktopGL/Fonts/Score.xnb</DestFile>
-  <DestTime>2017-11-20T02:52:54.3640466+00:00</DestTime>
+  <SourceFile>/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/Content/Fonts/Score.spritefont</SourceFile>
+  <SourceTime>2017-11-21T00:03:25+01:00</SourceTime>
+  <DestFile>/mnt/ade022df-a29a-4496-9174-88347f4841b7/aaa/dan-rts-attempt/rts attempt/Content/bin/DesktopGL/Fonts/Score.xnb</DestFile>
+  <DestTime>2017-11-21T00:03:36+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2017-03-01T15:05:36+00:00</ImporterTime>
+  <ImporterTime>2017-02-27T19:04:22+01:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2017-03-01T15:05:36+00:00</ProcessorTime>
-  <Parameters>
-    <Key>PremultiplyAlpha</Key>
-    <Value>True</Value>
-  </Parameters>
+  <ProcessorTime>2017-02-27T19:04:22+01:00</ProcessorTime>
   <Parameters>
     <Key>TextureFormat</Key>
     <Value>Compressed</Value>
